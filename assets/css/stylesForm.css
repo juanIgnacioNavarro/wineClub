@@ -1,0 +1,47 @@
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('../img/backWine.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.confirmation-title {
+  font-weight: 800;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.confirmation-subtitle {
+  font-size: 1.2rem;
+  color: white;
+}
+.back-button {
+  background-color: #007bff; /* Color de fondo del botón (puedes cambiarlo) */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.back-button a {
+  color: #fff; /* Color del texto del botón dentro del enlace */
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Cambiar el color de fondo al pasar el mouse */
+}
