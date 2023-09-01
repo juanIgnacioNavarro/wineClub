@@ -1356,7 +1356,18 @@ body.has-loading-screen.loading-done:after {
 
 .text-white {
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'../font-awesome/webfonts/Cocomat Ultralight-trial.ttf'
+}
+
+.text-white-st{
+    color: gray;
+    font-family:'../font-awesome/webfonts/fa-brands-400.woff2';
+    text-align: inherit;
+}
+
+.text-white-st3{
+    color: white;
+    font-family:'../font-awesome/webfonts/Cocomat Light-trial.ttf'
 }
 
 .navbar {
